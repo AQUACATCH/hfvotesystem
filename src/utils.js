@@ -1,0 +1,1 @@
+export const getMaxVotes= (arr)=>Math.max( 0,...arr.map(obj => obj.votes.length))
